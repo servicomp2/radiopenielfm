@@ -9,8 +9,6 @@ const ASSETS_TO_CACHE = [
     '/slider/img1.jpg',
     '/slider/img2.jpg',
     '/slider/img3.jpg',
-    '/icon-192.png',
-    '/icon-512.png',
     'https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap'
 ];
 

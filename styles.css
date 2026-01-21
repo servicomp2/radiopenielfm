@@ -597,11 +597,11 @@ body {
 @keyframes floatIn {
   from {
     opacity: 0;
-    transform: translateY(100px) scale(0.5);
+    transform: translateY(20px);
   }
   to {
     opacity: 1;
-    transform: translateY(0) scale(1);
+    transform: translateY(0);
   }
 }
 
@@ -646,11 +646,18 @@ body {
     --spacing-xl: 3rem;
   }
 
+  /* Disable heavy blur on mobile */
+  .header, .player-card, .about-card, .contact-card {
+    backdrop-filter: none;
+    background: rgba(0, 0, 0, 0.8); /* Darker background to compensate */
+  }
+
   .install-btn {
     bottom: 20px;
     left: 20px;
     right: auto;
     padding: 0;
+    animation: none; /* Disable animation on mobile */
   }
 
   .player-card {

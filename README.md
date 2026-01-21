@@ -174,7 +174,7 @@ El botón flotante "Instalar App" aparece automáticamente cuando:
 
 ## 📞 Soporte
 
-Para soporte técnico: servicomp.cesar@gmail.com
+Para soporte técnico: contacto@penielfm.com
 
 ## 📄 Licencia
 
