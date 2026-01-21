@@ -1,0 +1,7 @@
+# Cloudflare Pages Redirects Configuration
+
+# Redirect www to non-www (optional - uncomment if needed)
+# https://www.penielfm.com/* https://penielfm.com/:splat 301
+
+# SPA Fallback - redirect all non-file requests to index.html
+/*    /index.html   200
